@@ -23,8 +23,8 @@ namespace Lab4_prog
             controller.Model = dataModel;
 
             IView richTextBoxView = new RichTextBoxView();
-            controller.AddView(richTextBoxView);
-            richTextBoxView.Model = dataModel;
+            controller.AddView(richTextBoxView1);
+            richTextBoxView1.Model = dataModel;
         }
 
         private void Add(object sender, EventArgs e)
